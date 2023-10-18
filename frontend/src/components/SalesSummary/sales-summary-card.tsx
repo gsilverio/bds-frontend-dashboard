@@ -3,7 +3,7 @@ import React from 'react';
 
 type Props = {
   label: string;
-  value: number;
+  value: number | string;
   icon: React.ReactNode;
 };
 
